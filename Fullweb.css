@@ -1,0 +1,218 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+margin: 0;
+padding: 0;
+    background:white;
+}
+.main {
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(about.jpg);
+    width:100%;
+    background-position:center;
+    background-size:cover;
+    position:relative;
+}
+/*navbar*/
+nav{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    position:sticky;
+    top: 0;
+    left: 0;
+}
+
+nav ul{
+    display: flex;
+    gap: 1rem;
+}
+
+nav .logo{
+    color: brown;
+    font-size: 20px;
+}
+
+nav li a {
+    color: white;
+    padding: 3px 10px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+nav li a:hover{
+    color:black;
+    background: white;
+    border-radius: 10px;
+}
+/*login form*/
+form{
+    border: 1px solid black;
+    height:500px;
+    width: 330px;
+    border-radius: 10px;
+    padding: 20px;
+    opacity: 0.4s;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+label{
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+input[type = text]{
+    padding: 5px;
+    margin: 20px;
+    width: 250px;
+    outline: none;
+}
+
+input[type = password]{
+     padding: 5px;
+    margin: 20px;
+    width: 250px;
+    outline: none;
+}
+button{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+/*about*/
+
+section{
+    background: white;
+    margin: 0;
+    padding: 0;
+
+}
+
+.about {
+    background:linear-gradient(rgba(128, 0, 128, 0.384),rgba(0, 0, 0, 0.836)) ;
+    height:900px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+p{
+    color: black;
+    font-size: 20px;
+    margin: 10px;
+}
+
+/*product*/
+
+.product{
+     background:linear-gradient(rgba(128, 0, 128, 0.384),rgba(0, 0, 0, 0.836)) ;
+    height:320vh ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    color:black;
+    font-size: 20px;
+    margin-left: 80px;
+    font-weight: bold;
+
+}
+img {
+    display: flex;
+    justify-content: space-between;
+flex-basis: 31%;
+border-radius: 10px;
+margin-bottom: 5%;
+text-align: left;
+width: 100%;
+
+
+}
+
+/*client*/
+
+.Client {
+ background:linear-gradient(rgba(128, 0, 128, 0.384),rgba(0, 0, 0, 0.836)) ;
+    height:1000px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+    width: 700px;
+height: 400px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin:10px;
+}
+
+h2{
+     color: black;
+    text-align: center;
+    font-size: 37px;
+    padding: 10px;
+}
+
+
+/*contact*/
+
+.contact{
+ background:linear-gradient(rgba(128, 0, 128, 0.384),rgba(0, 0, 0, 0.836)) ;
+    height:1000px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h4{
+    color: black;
+    text-align: center;
+    font-size: 37px;
+    padding: 10px;
+}
+
+
+/*footer*/
+
+.end{
+        background: linear-gradient(rgba(128, 0, 128, 0.384),rgba(0, 0, 0, 0.836));
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#p1{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+
